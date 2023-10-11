@@ -86,6 +86,3 @@ function surface()
 
 }
 
-git add sketch.html
-git commit -m "Add p5.js sketch on subpage"
-git push origin main
