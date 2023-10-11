@@ -1,4 +1,18 @@
+function setup() {
+  createCanvas(400, 400);
+}
 
-git add sketch.html
-git commit -m "Add p5.js sketch page"
-[Go to My p5.js Sketch](sketch.html)
+function draw() {
+  background(220);
+   // Nested loops to iterate through each pixel
+  for (let x = 0; x < width; x++) {
+    for (let y = 0; y < height; y++) {
+      let r = random(255); // Random red component
+      let g = random(255); // Random green component
+      let b = random(255); // Random blue component
+      stroke(r, g, b); // Set stroke (outline) color
+      point(x, y); // Draw a point at each pixel
+    }
+  }
+  noLoop();
+}
