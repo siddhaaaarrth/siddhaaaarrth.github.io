@@ -16,3 +16,5 @@ function draw() {
   }
   noLoop();
 }
+git add sketch.html
+git commit -m "Add p5.js sketch page"
