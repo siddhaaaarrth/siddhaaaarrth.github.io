@@ -1,18 +1,15 @@
-function setup() {
-  createCanvas(400, 400);
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
 
-function draw() {
-  background(220);
-   // Nested loops to iterate through each pixel
-  for (let x = 0; x < width; x++) {
-    for (let y = 0; y < height; y++) {
-      let r = random(255); // Random red component
-      let g = random(255); // Random green component
-      let b = random(255); // Random blue component
-      stroke(r, g, b); // Set stroke (outline) color
-      point(x, y); // Draw a point at each pixel
-    }
-  }
-  noLoop();
-}
+  </head>
+  <body>
+    <main>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
