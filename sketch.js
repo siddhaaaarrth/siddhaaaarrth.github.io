@@ -1,6 +1,6 @@
 let x1,y1,z1
 function setup() {
-  createCanvas(600, 600, WEBGL);
+  createCanvas(1000, 1000, WEBGL);
   angleMode(DEGREES);
   x = 0
   y = 0;
